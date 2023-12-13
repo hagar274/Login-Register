@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 2500px;
+    background-image: url(../images/IMG_20231210_004620.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* navbar */
+header{
+    text-align: center;
+    background-image: url(../images/IMG_20231210_004620.jpg);
+    background-repeat: no-repeat;
+    border-radius: 80px;
+    background: left;
+    width: 1000px;
+}
+header div a{
+    text-decoration: none;
+    padding: 18px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+nav div .log{
+    border-radius: 30px 0 0 30px;
+    color: rgba(214, 43, 226, 0.673);
+    background-color: azure;
+}
+nav div .log:hover{
+    text-decoration: none;
+    background-color: rgba(214, 43, 226, 0.673);
+    color: azure; 
+}
+nav div .regist{
+    border-radius: 0  30px 30px 0;
+    background-color: rgba(214, 43, 226, 0.673);
+    color: azure; 
+}
+nav div .regist:hover{
+    text-decoration: none;
+    color: rgba(214, 43, 226, 0.673);
+    background-color: azure;
+}
+/* #active{
+    color: azure;
+    background-color: rgba(214, 43, 226, 0.673);
+} */
+
+/* register */
+.icon{
+    color: rgba(74, 9, 148, 0.832);
+  font-size: 150px;
+  margin: 80px auto;
+}
+
+ .form{
+    display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+  height: 1350px;
+  border-radius: 100px;
+  box-shadow: 0 0 15px 10px blueviolet;
+  background-image: url(../images/IMG_20231210_004620.jpg);
+  padding: 20px;
+  margin: 3px auto;
+  text-align: center;
+}
+.test{
+    display:flex;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    /* margin: 0 auto; */
+    gap: 6px;
+    color: beige;
+}
+
+.form .input{
+    width: 100%;
+    padding: 10px;
+    margin: 1px auto;
+    border-radius: 100px;
+    border: 1px 1px solid rgb(150, 55, 239);
+}
+.form .input:focus{
+    border: 0;
+    outline: 2px solid rgb(163, 80, 241);
+}
+#inputState{
+    width: 100%;
+    height: 100%
+}
+
+.form .submit{
+    padding: 10px;
+    background-color: blueviolet;
+    font-size: bold;
+    border-radius: 100px;
+    box-shadow: 1px 1px 25px rgb(139, 33, 238);
+}
