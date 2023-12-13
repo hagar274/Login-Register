@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 2500px;
+    height: 100%;
     background-image: url(../images/IMG_20231210_004620.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,8 +55,8 @@ nav div .regist:hover{
 /* register */
 .icon{
     color: rgba(74, 9, 148, 0.832);
-  font-size: 150px;
-  margin: 80px auto;
+    font-size: 100px;
+    margin: 50px auto;
 }
 
  .form{
@@ -64,12 +64,12 @@ nav div .regist:hover{
   flex-direction: column;
   gap: 10px;
   width: 500px;
-  height: 1350px;
+  height: 1140px;
   border-radius: 100px;
   box-shadow: 0 0 15px 10px blueviolet;
   background-image: url(../images/IMG_20231210_004620.jpg);
-  padding: 20px;
-  margin: 3px auto;
+  padding: 4px;
+  margin: 0 auto;
   text-align: center;
 }
 .test{
@@ -87,7 +87,7 @@ nav div .regist:hover{
 .form .input{
     width: 100%;
     padding: 10px;
-    margin: 1px auto;
+    margin: 0px auto;
     border-radius: 100px;
     border: 1px 1px solid rgb(150, 55, 239);
 }
@@ -106,4 +106,5 @@ nav div .regist:hover{
     font-size: bold;
     border-radius: 100px;
     box-shadow: 1px 1px 25px rgb(139, 33, 238);
+    border: 2px;
 }
